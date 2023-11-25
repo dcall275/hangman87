@@ -13,8 +13,8 @@ def word (word_list):
 word = word(word_list)
 
 while True:
-    guess = input("Enter a single letter: ")
-    if len(guess) == 1 and guess.isalpha():
+    guess = input("Enter a single letter: ") #single letter must be comparable to one single letter only
+    if len(guess) == 1 and guess.isalpha(): #python isalpha method returns true if 1 char false if not 
         print("Good guess!")
         break
     else:
