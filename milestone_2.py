@@ -1,33 +1,24 @@
-word_list = ["Banana", "Apple", "Guava", "Peach", "Melon"] #create a word list
-print(word_list)
+#Define a list of chosen fruits
+#Choose a random letter from the list
+#use the random module which allows the code to generate a random word from the variable word_list      
 
-import random  #import the random module
+import random
 
-word_list = ["Banana", "Apple", "Guava", "Peach", "Melon"] #create a word list
+word_list = ["Banana", "Apple", "Guava", "Peach", "Melon"]
 
-def select_random_word(word_list):
-    random_word = random.choice(word_list)
-    return random_word
+def word (word_list):
+    word = random.choice(word_list)
+    return word
 
-selected_word = select_random_word(word_list)
-print("Random word:", selected_word) #prints random word in the word_list
+word = word(word_list)
 
-import random # imports the random module
+while True:
+    guess = input("Enter a single letter: ")
+    if len(guess) == 1 and guess.isalpha():
+        print("Good guess!")
+        break
+    else:
+        print("Oops! That is not a valid input.  Please enter a single alphabetical character.")
 
-word_list = ["Banana", "Apple", "Guava", "Peach", "Melon"] #word list choice of 5 fruits
 
-def select_random_word(word_list): 
-    random_word = random.choice(word_list)
-    return random_word
 
-selected_word = select_random_word(word_list)
-print("Random word:", selected_word)
-
-guess = input("Enter a single letter: ")
-
-if len(guess) == 1 and guess.isalpha():  #Python isalpha() method returns true if all characters in the string are alphabetic and returns false if not
-                                         #single leter must be comparable to one single letter only
-    print("Good guess!")
-      
-else:
-    print("Oops! That is not a valid input. Please enter a single alphabetical character.")
