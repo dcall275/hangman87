@@ -10,7 +10,9 @@ On this project the code has been built line by line starting with creating a si
 Subsequent updates have entailed building the game, first of all changing the code so that it generates a random word
 from the list to adding an input asking for the user to enter one word only. 
 
-This is the first process of building the game.  
+This is the first process of building the game.  Files milestone_2 is where the list of 5 words was generated and is further used to build out the completion of the code through to milestone_3. 
+
+Files milestone_3 and milestone_4 use object oriented programming and the utilisaiton of classes to build the final game.  
 
 The game is coded in Python.
 
