@@ -12,7 +12,7 @@ from the list to adding an input asking for the user to enter one word only.
 
 This is the first process of building the game.  Files milestone_2 is where the list of 5 words was generated and is further used to build out the completion of the code through to milestone_3. 
 
-Files milestone_3 and milestone_4 use object oriented programming principles to build out the final game.  
+Files milestone_4 and milestone_5 use object oriented programming principles to build out the final game.  
 
 The code uses the random module to randomy choose a word from the following list: 
 ["Banana", "Apple", "Guava", "Peach", "Melon"]
