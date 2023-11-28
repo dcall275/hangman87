@@ -14,7 +14,7 @@ This is the first process of building the game.  Files milestone_2 is where the 
 
 Files milestone_4 and milestone_5 use object oriented programming principles to build out the final game.  
 
-The code uses the random module to randomy choose a word from the following list: 
+The code uses the random module to randomly choose a word from the following list: 
 ["Banana", "Apple", "Guava", "Peach", "Melon"]
 
 ## How to Play the Game
@@ -27,7 +27,7 @@ The letter must be a single alphabetical letter.  There are checks coded in the 
 a) does not input a letter(character) that is not an alphabetical letter
 b) enter a letter they have previously entered.  
 
-If all five tries have been used, and the player has not guessed the word, the game will print "You Lost1".  If the user guesses correctly that game will print
+If all five tries have been used, and the player has not guessed the word, the game will print "You Lost!".  If the user guesses correctly that game will print
 "Congratulations.  You won the game!".
 
 
